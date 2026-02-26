@@ -19,7 +19,7 @@ ACTOR_ID = os.getenv("AGENTCORE_ACTOR_ID", "demo-user")
 
 COGNITO_TOKEN_URL = os.getenv("COGNITO_TOKEN_URL", "https://us-east-1rrhfeytej.auth.us-east-1.amazoncognito.com/oauth2/token")
 COGNITO_CLIENT_ID = os.getenv("COGNITO_CLIENT_ID", "3rfjnrk0l09emo03m2rjj6ufdd")
-COGNITO_CLIENT_SECRET = os.getenv("COGNITO_CLIENT_SECRET", "hp2jvc70gpmmrpegdadm7evpsentpd3aih09ak0klgbjrociffu")
+COGNITO_CLIENT_SECRET = os.getenv("COGNITO_CLIENT_SECRET", "")
 GATEWAY_MCP_URL = os.getenv("GATEWAY_MCP_URL", "https://gateway-support-4smlq2cdez.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp")
 
 MCP_TOOL_NAME = os.getenv("MCP_TOOL_NAME", "get_customer_context")

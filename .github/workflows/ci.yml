@@ -19,6 +19,9 @@ env:
   ECR_REGISTRY: ${{ vars.ECR_REGISTRY }}
   ECR_REPOSITORY: support-triage
   IMAGE_TAG: ${{ github.sha }}
+  COGNITO_TOKEN_URL: ${{ secrets.COGNITO_TOKEN_URL }}
+  COGNITO_CLIENT_ID: ${{ secrets.COGNITO_CLIENT_ID }}
+  COGNITO_CLIENT_SECRET: ${{ secrets.COGNITO_CLIENT_SECRET }}
 
 jobs:
   security-scanning:
