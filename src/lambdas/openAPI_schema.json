@@ -1,0 +1,18 @@
+[
+	{
+		"name": "get_customer_context",
+		"description": "Get support customer context information from DynamoDB by customer_id",
+		"inputSchema": {
+			"type": "object",
+			"properties": {
+				"customer_id": {
+					"description": "Customer identifier to fetch support context for",
+					"type": "string"
+				}
+			},
+			"required": [
+				"customer_id"
+			]
+		}
+	}
+]
